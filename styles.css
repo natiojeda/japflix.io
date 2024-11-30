@@ -1,0 +1,54 @@
+.card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+#movieDetails {
+    margin-top: 1rem;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.input-group input {
+    background-color: #222;
+    color: white;
+    border: 1px solid #444;
+}
+
+.input-group input::placeholder {
+    color: #aaa;
+}
+
+.input-group .btn {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.input-group .btn:hover {
+    background-color: #ff4d4d;
+}
+
+#movieDetails {
+    background-color: #333;
+    color: white;
+    border-color: red;
+}
+
+#movieGenres .badge {
+    background-color: red;
+    color: white;
+}
+
